@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 """ Starts a Flash Web Application """
+from uuid import uuid4
 import uuid
 from models import storage
 from models.state import State
@@ -34,13 +35,13 @@ def hbnb():
 
     places = storage.all(Place).values()
     places = sorted(places, key=lambda k: k.name)
-    cash_id = uuid.uuid4()
+    cache_id = uuid.uuid4()
 
     return render_template('0-hbnb.html',
                            states=st_ct,
                            amenities=amenities,
                            places=places,
-                           cash_id=cash_id)
+                           cache_id=cache_id)
 
 
 if __name__ == "__main__":
