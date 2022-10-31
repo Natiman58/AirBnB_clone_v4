@@ -11,12 +11,25 @@ header .logo {
 }
 
 #api_status {
-    align-items: right;
+    float:right;
+    position: relative;
     margin-right: 30px;
+    margin-top: -55px;
+    border: 1px;
     width: 40px;
     height: 40px;
     background-color: #cccccc;
+    border-radius: 50%;
 }
 #api_status.available {
+    float: right;
     background-color: #ff545f;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 30px;
+    margin-top: -55px;
+    border: 1px;
+
 }
