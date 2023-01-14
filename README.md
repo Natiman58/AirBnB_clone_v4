@@ -156,6 +156,3 @@ No known bugs at this time.
 ## Authors
 Nati M Dessie - [Github](https://github.com/Natiman58) / [Twitter](https://twitter.com/NManyazewal)  
 Victoria Oguti - [Github](https://github.com/Victoria-20) / [Twitter](https://twitter.com/victoriaocon5)
-Second part of Airbnb: Joann Vuong
-## License
-Public Domain. No copy write protection. 
